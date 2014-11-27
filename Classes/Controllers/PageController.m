@@ -51,7 +51,7 @@
     self.multiPageView.columnInset = CGPointMake(50, 30);
     self.multiPageView.text = [NSString stringFromFileNamed:@"lorem_ipsum.txt"];
     self.multiPageView.font = [UIFont fontWithName:@"Georgia" size:self.fontSize];
-    self.multiPageView.columnCount = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? 2 : 3;
+//    self.multiPageView.columnCount = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? 2 : 3;
 
     UIPinchGestureRecognizer *pinchRecognizer = [[[UIPinchGestureRecognizer alloc] initWithTarget:self 
                                                                                            action:@selector(changeTextSize:)] autorelease];
